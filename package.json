@@ -1,0 +1,14 @@
+{
+  "name": "ssl-cert-manager",
+  "version": "1.0.0",
+  "description": "SSL certificate expiration manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.2",
+    "@fidm/x509": "^1.1.15",
+    "nodemailer": "^6.9.8"
+  }
+}
